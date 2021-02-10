@@ -43,6 +43,7 @@
     	flex-wrap:wrap;
 	    align-items:center;
 	    justify-content:center;
+		
 
 
 
@@ -54,10 +55,11 @@
 	font-family: Helvetica,sans-serif;
 	margin-bottom: 15px;
 	margin-top: 1px;
-	margin-right: 15px;
+	margin-right: 1px;
 	padding-top: 3px;
 	padding-left: 20px;
 	padding-right: 15px;
+	flex-grow: 1;
 	
 
 
@@ -81,4 +83,7 @@
 .foot{
 background-color: rgb(155, 155, 148);
 font-family: Helvetica;
+padding-bottom: 10px;
+		padding-top: 10px;
+		padding-left: 10px;
 }
