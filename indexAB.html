@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="./style.css">
+	<script type="text/javascript" src="./meteo.js"></script>
+
+	<meta charset="UTF-8" />
+	<title>TP Météo HTML </title>
+
+
+
+
+	<select onchange=showCity() name="ville" id="ville-selectionne">
+		<option value="">--Please choose an option--</option>
+		<option value="Lyon">Lyon</option>
+		<option value="Oran">Oran</option>
+		<option value="Paris">Paris</option>
+	</select>
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+	<h1 id="head">
+		TP méteo HTML
+	</h1>
+	<div class=" all">
+		<div class="city" id="Lyon">
+			<h2>Lyon</h2>
+			12°C, Cloudy <br>
+			<img id="img01" src="noun_cloudy.png" alt="nuageux" width="200">
+
+		</div>
+
+		<div class="city" id="Oran">
+			<h2>Oran</h2>
+			7°C, Rainy <br>
+			<img id="img02" src="noun_rainy.png" alt="la pluie" width="200">
+		</div>
+
+		<div class="city" id="Paris">
+			<h2>Paris</h2>
+
+			<p>2°C, snowing <br>
+
+				<img id="img03" src="noun_snowing.png" alt="il neige" width="200">
+			</p>
+		</div>
+	</div>
+
+	<div class="foot">
+		<footer>
+			Salim HABEL<br>
+
+			Bachir Raho Abdelsamed<br>
+			icone météo par
+			<a href="https://thenounproject.com/search/collection/?q=weather">thenounproject</a>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
