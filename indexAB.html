@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8"/>
+<title>TP Météo HTML </title>	
+<style>
+
+.pa{
+	background:rgba(143, 166, 196, 0.856);
+	font-family:Helvetica ,serif;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-right: 15px;
+	padding-top: 3px;
+	padding-left: 20px;
+	padding-right: 15px;
+		
+}
+
+.or{
+	background:rgb(197, 213, 228);
+	font-family: Helvetica,sans-serif;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	margin-right: 15px;
+	padding-top: 3px;
+	padding-left: 20px;
+	padding-right: 15px;
+
+}
+.ly{
+	background:rgb(215, 226, 236);
+	font-family: Helvetica,sans-serif;
+	
+	
+	
+	margin-bottom: 30px;
+	margin-top: 1px;
+	margin-right: 15px;
+	
+	padding-top: 3px;
+	padding-left: 20px;
+	padding-right: 15px;
+	
+	
+	
+
+}
+#img01{
+	position:relative;
+                bottom:49px;
+                
+                left:90px;
+}
+
+#img02{
+	position:relative;
+	bottom:49px;
+                
+                left:90px;            
+}
+#img03{
+	position:relative;
+	bottom:57px;
+                
+                left:90px;
+                
+               
+}
+
+
+#head{
+	background-color: rgb(89, 107, 119);
+	color:white;
+	padding-top: 30px;
+		padding-left: 30px;
+		padding-bottom: 30px;
+	
+	font-family: Helvetica;
+	font-size: 150%;
+	text-align: center;
+	
+	
+}
+.all{
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	align-items:center*/
+	display: flex;
+		flex: 1 1 auto;
+		flex-direction: row;
+    	flex-wrap:wrap;
+	align-items:center;
+	
+	
+	justify-content: center;
+
+
+}
+.all div {
+	height: 150px;
+	
+	
+
+
+}
+.all div:nth-child(1){
+	position:relative;
+	top: 18px;
+	width: 400px;
+
+}
+.all div:nth-child(2){
+	
+	width: 400px;
+}
+.all div:nth-child(3){
+	
+	width: 400px;
+
+}
+
+
+.foot{
+background-color: rgb(155, 155, 148);
+font-family: Helvetica;
+}
+
+</style>
+</head >
+
+	<body>
+		
+		<h1 id="head">
+			TP méteo HTML
+		</h1>
+		<div class="all">
+		<div class="ly">
+			<h2>Lyon</h2>
+	  12°C, Cloudy <br>
+	  <img id="img01" src="noun_cloudy.png" alt="nuageux" width="200"
+	  >
+
+		</div>
+	  
+	  <div class="or">
+		<h2>Oran</h2>
+		7°C, Rainy <br>
+		<img id="img02" src="noun_rainy.png" alt="la pluie" width="200">
+	  </div>
+	  
+<div class="pa">
+	<h2>Paris</h2>
+
+	<p>2°C, snowing <br>
+	  
+		<img id="img03" src="noun_snowing.png" alt="il neige" width="200">
+	</p>
+</div>
+</div>
+	     
+      <div class="foot">
+		<footer>
+			Salim HABEL<br>
+			
+			Bachir Raho Abdelsamed<br>
+			icone météo par
+			<a href="https://thenounproject.com/search/collection/?q=weather">thenounproject</a>
+		</footer>
+	  
+	</div>
+
+	</body>
+</html>
