@@ -42,7 +42,7 @@
 		flex-direction: row;
     	flex-wrap:wrap;
 	    align-items:center;
-	    justify-content:center;
+	    justify-content:space-evenly;
 		
 
 
@@ -59,7 +59,7 @@
 	padding-top: 3px;
 	padding-left: 20px;
 	padding-right: 15px;
-	flex-grow: 1;
+	flex-grow: 4;
 	
 
 
